@@ -1,0 +1,79 @@
+#conId {
+  margin-left: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 36px;
+  color: black;
+}
+
+.contact {
+  width: 500px;
+  margin: auto;
+}
+
+.formStyle {
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-radius: 3px;
+  border-bottom-style: none;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  font-size: 1em;
+  font-weight: 100;
+  color: black;
+  opacity: 0.5;
+}
+
+.formButton {
+  float: right;
+  background-color: darkgrey;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 6px 24px;
+  margin-top: 15px;
+  margin-right: 60px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.formButton:hover {
+  background-color: white;
+  color: black;
+}
+
+.formButton:active {
+  position: relative;
+  top: 3px;
+}
+
+/*To remove the outline that appears on clicking the input textbox*/
+input:focus {
+  outline: none;
+}
+
+/* To format the placeholder text color */
+::-webkit-input-placeholder {
+  color: black;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: black;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: black;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
