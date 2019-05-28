@@ -14,7 +14,7 @@ class Card extends Component {
           <h5 class="card-title">{this.props.title}</h5>
           <p class="card-text">{this.props.description}</p>
           <a href="#" class="btn btn-outline-dark">
-            Choose
+            See more
           </a>
         </div>
       </div>
